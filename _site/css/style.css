@@ -1,0 +1,713 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	line-height: 1.5em;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: .5px;
+	max-width: 100%;
+
+}
+
+
+
+
+/*--------Header--------*/
+
+#hero{
+	height: 100vh;
+}
+
+.intro{
+	width: 40vh;
+	height: 50vh;
+	float: left;
+	margin-left: 100px;
+	margin-top: 200px;
+	font-weight: 1000;
+	font-size: 34px;
+
+
+}
+
+.intro-big{
+	width: 40vh;
+	height: 40vh;
+	float: left;
+	background-color: #fff;
+	font-weight: 1000;
+	font-size: 34px;
+}
+
+.intro-small{
+	float: left;
+	font-weight: none;
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.cover-text{
+	float: right;
+	font-size: 20px;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+
+}
+
+
+
+/*--------Header--------*/
+
+
+
+/*--------used multiple times--------*/
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+
+}
+
+
+/*--------nav--------*/
+
+
+
+nav ul {
+	background-color: #fff;
+	overflow: hidden;
+	color: #000;
+	padding: 0;
+	text-align: right;
+	margin: 0;
+	position: fixed;
+	width: 100%
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 25px;
+}
+
+
+nav a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+
+	-o-transition:.2s;
+	-ms-transition:.2s;
+	-moz-transition:.2s;
+	-webkit-transition:.2s;
+}
+
+nav a:hover {
+	color: #919090; 
+
+} 
+
+.new-monogram {
+	float: left;
+	width: 75px;
+	height: 75px;
+	background-color: #000;
+	margin-left: 100px;
+}
+
+
+
+
+
+
+/*--------nav--------*/
+
+/*--------about--------*/
+
+#about{
+	float: left;
+	width: 100%;
+	background-color: #000;
+	height: 45em;
+}
+
+
+.about{
+	float: left;
+	width: 61.25em;
+	height: 30em;
+}
+
+
+.about-title{
+	float: left;
+	width: 16em;
+	height: 10em;
+	padding-top: 2em;
+
+}
+
+.about-title h1{
+	float: left;
+	text-align: left;
+	font-size: 40px;
+	color: #fff;
+}
+
+
+.about-title-img{
+	float: left;
+	width: 30%;
+	height: 30%;
+	margin-top: 12em;
+	margin-left: -16em;
+}
+
+.about-top-text{
+	float: right;
+	width: 50%;
+	height: 30%;
+	margin-top: 8em;
+	color: #fff;
+}
+
+.about-top-text p{
+	margin-bottom: 2em;
+	margin-top: 1.5em;
+	font-size: 20px;
+}
+
+
+
+/*--------end of about--------*/
+
+/*--------portfolio--------*/
+
+#portfolio{
+	float: left;
+	background-color: #fff;
+	height: 25em;
+	width: 100%;
+
+}
+
+
+.portfolio-intro{
+	width: 40vh;
+	height: 50vh;
+	float: left;
+	margin-left: 100px;
+	margin-top: 40px;
+	font-weight: 1000;
+	font-size: 20px;
+
+}
+
+
+.portfolio-big{
+	width: 40vh;
+	height: 40vh;
+	float: left;
+	background-color: #fff;
+	font-weight: 1000;
+	font-size: 34px;
+}
+
+
+.portfolio-small{
+	float: left;
+	font-weight: none;
+	font-size: 16px;
+	margin-left: 1.3em;
+	margin-top: .5em;
+}
+
+.portfolio-text{
+	float: right;
+	width: 50%;
+	height: 30%;
+	margin-top: 14em;
+}
+
+/*--------end of portfolio--------*/
+
+/*--------start of case study 1--------*/
+
+#case-1{
+	float: left;
+	background-color: #000;
+	height: 24em;
+	width: 100%;
+
+}
+
+.case-1-intro{
+	width: 40vh;
+	height: 30vh;
+	float: left;
+	margin-left: 100px;
+	margin-top: 100px;
+	font-weight: 1000;
+	font-size: 18px;
+
+}
+
+
+.case-1-big{
+	width: 40vh;
+	height: 30vh;
+	float: left;
+	font-weight: 1000;
+	font-size: 28px;
+	color: #fff;
+}
+
+
+.case-1-small{
+	float: left;
+	font-weight: none;
+	font-size: 12px;
+	color: #fff;
+	margin-left: 1.3em;
+	margin-top: .5em;
+}
+
+
+.case-right{
+	float: right;
+	width: 36em;
+	height: 20em;
+	margin-right: 10em;
+	margin-top: 2.5em;
+}
+
+
+.case-icon{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3em;
+	width: 90%;
+	height: 90%;
+}
+
+
+
+
+.suits-button{
+	float: left;
+	width: 80%;
+	height: 20%;
+	background-color: #fff;
+	margin-top: 1em;
+	color: #000;
+	text-align: center;
+	font-size: 22px;
+	transition: all .2s ease-in-out;
+
+
+}
+
+.suits-button a{
+	color: #000;
+	text-decoration: none;
+}
+
+.suits-button:hover {
+	opacity: .6;
+	transform: scale(.90);
+	transition: all .2s ease-in-out;
+}
+
+
+.suits-button:hover {
+	opacity: .6;
+	transform: scale(.90);
+	transition: all .2s ease-in-out;
+}
+
+.suits-button p{
+	margin-top: .2em;
+}
+
+
+
+
+/*--------end of case study 1--------*/
+
+/*--------start of case study 2--------*/
+
+
+#case-2{
+	float: left;
+	background-color: #fff;
+	height: 24em;
+	width: 100%;
+
+}
+
+.case-2-intro{
+	width: 40vh;
+	height: 30vh;
+	float: left;
+	margin-left: 100px;
+	margin-top: 100px;
+	font-weight: 1000;
+	font-size: 18px;
+
+}
+
+
+.case-2-big{
+	width: 40vh;
+	height: 30vh;
+	float: left;
+	font-weight: 1000;
+	font-size: 28px;
+	color: #000;
+}
+
+
+
+.bottle-button{
+	float: left;
+	width: 80%;
+	height: 20%;
+	background-color: #000;
+	margin-top: 1em;
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+	transition: all .2s ease-in-out;
+	text-decoration: none;
+
+}
+
+.bottle-button a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.bottle-button:hover {
+	opacity: .6;
+	transform: scale(.90);
+	transition: all .2s ease-in-out;
+}
+
+.bottle-button p{
+	margin-top: .2em;
+}
+
+
+
+/*--------end of case study 2--------*/
+
+
+/*--------start of case study 3--------*/
+
+
+#case-3{
+	float: left;
+	background-color: #000;
+	height: 24em;
+	width: 100%;
+
+}
+
+.case-3-intro{
+	width: 40vh;
+	height: 30vh;
+	float: left;
+	margin-left: 100px;
+	margin-top: 100px;
+	font-weight: 1000;
+	font-size: 18px;
+
+}
+
+
+.case-3-big{
+	width: 40vh;
+	height: 30vh;
+	float: left;
+	font-weight: 1000;
+	font-size: 28px;
+	color: #fff;
+}
+
+
+.away-button{
+	float: left;
+	width: 80%;
+	height: 20%;
+	background-color: #fff;
+	margin-top: 1em;
+	color: #000;
+	text-align: center;
+	font-size: 22px;
+	transition: all .2s ease-in-out;
+
+}
+
+.away-button a{
+	color: #000;
+	text-decoration: none;
+}
+
+.away-button:hover {
+	opacity: .6;
+	transform: scale(.90);
+	transition: all .2s ease-in-out;
+}
+
+.away-button p{
+	margin-top: .2em;
+}
+
+
+/*--------end of case study 3--------*/
+
+
+/*--------start of case study 4--------*/
+
+
+#case-4{
+	float: left;
+	background-color: #fff;
+	height: 24em;
+	width: 100%;
+
+}
+
+.case-4-intro{
+	width: 40vh;
+	height: 30vh;
+	float: left;
+	margin-left: 100px;
+	margin-top: 100px;
+	font-weight: 1000;
+	font-size: 18px;
+
+}
+
+
+.case-4-big{
+	width: 40vh;
+	height: 30vh;
+	float: left;
+	font-weight: 1000;
+	font-size: 28px;
+	color: #000;
+}
+
+
+
+.noble-button{
+	float: left;
+	width: 80%;
+	height: 20%;
+	background-color: #000;
+	margin-top: 1em;
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+	transition: all .2s ease-in-out;
+	text-decoration: none;
+
+}
+
+.noble-button a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.noble-button:hover {
+	opacity: .6;
+	transform: scale(.90);
+	transition: all .2s ease-in-out;
+}
+
+.noble-button p{
+	margin-top: .2em;
+}
+
+
+
+/*--------end of case study 4 --------*/
+
+/*--------start of case study 5--------*/
+
+
+#case-5{
+	float: left;
+	background-color: #000;
+	height: 24em;
+	width: 100%;
+
+}
+
+.case-5-intro{
+	width: 40vh;
+	height: 30vh;
+	float: left;
+	margin-left: 100px;
+	margin-top: 100px;
+	font-weight: 1000;
+	font-size: 18px;
+
+}
+
+
+.case-5-big{
+	width: 40vh;
+	height: 30vh;
+	float: left;
+	font-weight: 1000;
+	font-size: 28px;
+	color: #fff;
+}
+
+
+.away-button{
+	float: left;
+	width: 80%;
+	height: 20%;
+	background-color: #fff;
+	margin-top: 1em;
+	color: #000;
+	text-align: center;
+	font-size: 22px;
+	transition: all .2s ease-in-out;
+
+}
+
+.away-button a{
+	color: #000;
+	text-decoration: none;
+}
+
+.away-button:hover {
+	opacity: .6;
+	transform: scale(.90);
+	transition: all .2s ease-in-out;
+}
+
+.away-button p{
+	margin-top: .2em;
+}
+
+
+/*--------end of case study 5--------*/
+
+
+/*--------start of cv--------*/
+
+#cv{
+
+	height: 30vh;
+	width: 100%;
+
+}
+
+
+#cv-intro{
+	width: 40vh;
+	height: 50vh;
+	float: left;
+	margin-left: 100px;
+	margin-top: 40px;
+	font-weight: 1000;
+	font-size: 20px;
+
+}
+
+
+.cv-big{
+	width: 40vh;
+	height: 20vh;
+	float: left;
+	font-weight: 1000;
+	font-size: 26px;
+}
+
+
+.cv-button{
+	float: left;
+	width: 80%;
+	height: 30%;
+	background-color: #000;
+	margin-top: 1em;
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+	transition: all .2s ease-in-out;
+
+}
+
+.cv-button a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.cv-button:hover {
+	opacity: .6;
+	transform: scale(.90);
+	transition: all .2s ease-in-out;
+}
+
+.cv-button p{
+	margin-top: .2em;
+}
+
+
+.cv-text{
+	float: right;
+	width: 839px;
+	height: 237px;
+	margin-top: 15em;
+}
+
+.cv-title{
+	float: right;
+	width: 30em;
+	height: 12em;
+	margin-top: 19em;
+
+}
+
+/*--------end of cv--------*/
+
+/*--------footer--------*/
+
+
+footer {
+	float: left;
+    width: 100%;
+    background-color: #000;
+    color: #ffffff;
+    position: relative;
+}
+
+
+.social-icons{
+	text-align: center;
+	font-size: 32px;
+	margin-top: .5em;
+}
+
+.social-icons:hover img{
+	opacity: .6;
+	transform: scale(.90);
+}
+
+.social-icons img:hover {
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+.social-icons img{
+	transition: all .2s ease-in-out;
+}
+
+/*--------end footer--------*/
+
